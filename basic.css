@@ -1,0 +1,174 @@
+body {
+    background-color: #001a33;
+    color: #cccccc;
+}
+
+header{
+    /*display : flex;*/
+    padding : 1% 1% 1% 1%;
+    background-color: #000d1a;
+    grid-area: main_header;
+    display: grid;
+    grid-template-areas: "title nav"
+}
+
+footer {
+    text-align: center;
+    grid-area: footer;
+    background-color: #000d1a;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+
+}
+
+img{
+    width: 15%;
+    height: auto;
+    margin: 5% 0% 5% 0%;
+}
+
+li{
+    margin: 1%
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+a:link, a:visited {
+    background-color: #00264d;
+    color:#cccccc;
+    padding: 2% 4%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1%;
+}
+
+a:hover, a:active {
+    background-color: #003366;
+}
+
+td > img {
+    width: 50%;
+}
+
+
+.title{
+    min-width: 100%;
+    margin: 0% 0% 0% 2.5%;
+    grid-area: title;
+}
+
+.nav{
+    padding: 1%;
+    min-width: 100%;
+    grid-area: nav;
+}
+
+.page{
+    padding-bottom: 2.5rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: grid;
+    grid-area: page;
+    grid-template-areas: "main_info"
+    "opening_list"
+}
+
+.page-2{
+    padding-bottom: 2.5rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.main_info {
+    grid-area: main_info;
+}
+
+.opening_list{
+    grid-area: opening_list;
+    display: grid;
+    grid-template-areas: "openings_title . ."
+    "land_openings coastal_openings water_openings";
+}
+
+.image_column{
+    text-align: center;
+}
+
+.openings_title{
+    grid-area: openings_title;
+}
+
+.land_openings {
+    grid-area: land_openings;
+}
+
+.coastal_openings {
+    grid-area: coastal_openings;
+}
+
+.water_openings {
+    grid-area: water_openings;
+}
+
+.cell_text {
+    grid-area: cell_text;
+    margin: 2.5% 0% 2.5% 2.5%;
+}
+
+.cell_text_number {
+    grid-area: cell_text;
+    margin: 2.5% 0% 2.5% 2.5%;
+    text-align: center;
+}
+
+.cell_img {
+    grid-area: cell_img;
+    margin: 1% 0% 1% 0%;
+}
+
+.videos{
+    display: flex;
+}
+
+.grid-container {
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "main_header"
+    "page"
+    "footer";
+}
+
+.grid-container-2 {
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "main_header"
+    "page-2"
+    "footer";
+}
+
+.col1{
+    width: 5%
+}
+.col2{
+    width: 85%
+}
+.col3{
+    width: 10%;
+}
+
+.videos iframe {
+    margin: 1% 1% 1% 1%;
+    width: 25%;
+    height: calc(25vw*6/9);
+}

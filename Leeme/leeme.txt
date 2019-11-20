@@ -1,0 +1,16 @@
+La página web esta maquetada en su totalidad utilizando un archivo .css "puro".
+Todos los selectores utilizados son selectores simples, en su mayoría de tipo o de clase.
+Se ha utilizado un gran número de selectores de clase para reutilizar estos lo máximo posible en diferentes .html, evitando replicar texto y manteniendo la consistencia de las páginas.
+Con el fin de determinar de forma dinámica el posicionamiento de los elementos se ha utilizado un "grid layout".
+En todo momento se ha utilizado valores relativos para asegurar que la aplicación sea "responsive".
+Se ha utilizado una mezcla de colores suave y con un nivel de contraste aceptable para permitir una visualización más cómoda de la página.
+Los características más positivas que me gustaría destacar del css serían:
+    Mantener el "footer" siempre abajo en las páginas.
+    Ofrecer unos "botones" de navegación adaptados a la estética de la página.
+    Lograr insertar en las páginas una tablas que pese a su tamaño se pueden ver con facilidad y son responsivas.
+    Lograr hacer responsivos los "iframes" contenedores de videos.
+Los objetivos que no logró cumplir durante la creación del css fueron:
+    No lograr separa más el footer del resto contenido.
+    Ciertos problemas a la hora de cambiar el tamaño de la página en los botones de navegación.
+
+
